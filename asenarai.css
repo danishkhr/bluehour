@@ -1,0 +1,47 @@
+table {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    
+    margin: 0px auto;
+    margin-bottom: 0px;
+    border-collapse: collapse;
+    clear:left;
+}
+
+table.maklumat {
+    width: 400px;
+}
+
+caption {
+	font-size: 16px;
+	font-weight: bold;
+	color: #3f499a;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+td, th {
+    padding: 15px;
+    border: 2px solid #686979;
+}
+
+td.nama {
+    width: 150px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #bad9f0;
+}
+
+tr:nth-child(even) {
+    background-color: #bad9f0;
+} 
+
+th {
+    font-weight: bold;
+    color: white;
+    background-color: #3f499a;
+}

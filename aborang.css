@@ -1,0 +1,86 @@
+body {
+    background-image: url(imej/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+h3 {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+    padding: 10px 22px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 30px auto 0px;
+    background-color:#364586 ;
+    box-shadow: 15px 15px 6px 0px rgba(96, 96, 96, 0.7);
+}
+
+form {
+    text-align: center;
+
+    padding: 20px;
+    border: 2px solid #82b1f2;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px auto;
+    background-color: #badaf5;
+    box-shadow: 15px 15px 6px 0px rgba(57, 43, 43, 0.67);
+}
+
+h4 {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    width: 380px;
+
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px auto 0px;
+    background-color: skyblue;
+    box-shadow: 15px 15px 6px 0px rgba(96, 96, 96, 0.7);
+}
+
+/* saiz pendek untuk borang login */
+form.pendek,
+h3.pendek {
+    width: 270px;
+}
+
+/* saiz panjang untuk borang selain login */
+form.panjang,
+h3.panjang {
+    width: 380px;
+}
+
+input[type="text"],
+input[type="KataKunci"],
+input[type="file"],
+select {
+    width: 230px;
+    padding: 7px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: silver;
+}
+
+input[type="file"] {
+    padding: 3px;
+}
+
+td:nth-child(1) {
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+
+    width: 200px;
+}
